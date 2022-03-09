@@ -15,3 +15,6 @@ This is the repository for the static website for the DVMProject. The DVMProject
 **Other Credits**
 - DVMProject, dvmhost, dvmfirmware, dvmfne Logo(s): Connor Lovell
 
+## License
+
+This and most projects in the DVMProject umbrella are licensed under the GPLv2 License - see the [LICENSE.md](LICENSE.md) file for details. Use of this project is intended, strictly for amateur and educational use ONLY. Any other use is at the risk of the user and all commercial purposes are strictly discouraged.
