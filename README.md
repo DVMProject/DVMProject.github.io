@@ -6,6 +6,8 @@ This is the repository for the static website for the DVMProject. The DVMProject
 - dvmfirmware (https://github.com/DVMProject/dvmfirmware) and dvmfirmware-hs (https://github.com/DVMProject/dvmfirmware-hs)
 - dvmfne (https://github.com/DVMProject/dvmfne)
 
+Please feel free to reach out to us for help, comments or otherwise, on our Discord: https://discord.gg/3pBe8xgrEz
+
 **DVMProject Team**
 - Bryan Biedenkapp (https://github.com/gatekeep) 
 - Natalie Moore (https://github.com/jelimoore)
