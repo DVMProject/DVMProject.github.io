@@ -13,6 +13,7 @@ Please feel free to reach out to us for help, comments or otherwise, on our Disc
 - Natalie Moore (https://github.com/jelimoore)
 - Steven Jennison (https://github.com/sjennison)
 - Charles Bricker (https://github.com/ceb515)
+- Connor Lovell (https://github.com/DevRanger)
 
 **Other Credits**
 - DVMProject, dvmhost, dvmfirmware, dvmfne Logo(s): Connor Lovell
