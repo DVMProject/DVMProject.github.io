@@ -1,4 +1,4 @@
-# Digital Voice Modem Host
+# Digital Voice Modem Project
 
 ## Project Technical Leads
 - Host and Firmware
