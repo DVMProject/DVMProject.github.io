@@ -5,6 +5,7 @@
     - Bryan Biedenkapp (https://github.com/gatekeep)
 
 - FNE and Network Software
+    - Bryan Biedenkapp (https://github.com/gatekeep)
     - Steven Jennison (https://github.com/sjennison)
     - Natalie Moore (https://github.com/jelimoore)
 
