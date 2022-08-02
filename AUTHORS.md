@@ -1,6 +1,6 @@
 # Digital Voice Modem Project
 
-## Project Technical Leads
+## Project Technical Leads and Primary Developers
 - Host and Firmware
     - Bryan Biedenkapp (https://github.com/gatekeep)
 
