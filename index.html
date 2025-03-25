@@ -1,60 +1,194 @@
-<!DOCTYPE HTML>
-<!--
-	Ethereal by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>DVMProject</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="DVMProject: Advancing Digital Radio Technology - open-source solutions for digital radio communications." />
+  <meta name="author" content="DVMProject Authors">
+  <meta property="og:title" content="DVMProject" />
+  <meta property="og:description" content="Open-Source Solutions for Digital Digital Radio Technology" />
+  <meta property="og:image" content="/logos/project.png" />
+  <meta property="og:url" content="https://dvmproject.io/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>DVMProject</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: url('/assets/NP.JPG') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      line-height: 1.6;
+      position: relative;
+    }
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(8px);
+      z-index: 0;
+    }
+    body::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 50%, rgba(0,0,0,0.5) 100%);
+      z-index: 0;
+      pointer-events: none;
+    }
+    header, .hero, section, footer {
+      position: relative;
+      z-index: 1;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #e53935;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    .hero {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      color: #ccc;
+      margin-bottom: 2rem;
+    }
+    .cta-button {
+      background: #e53935;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .cta-button:hover {
+      background: #ff6f60;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    section h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #e53935;
+    }
+    section a {
+      color: #e53935;
+    }
+    section a:hover {
+      text-decoration: underline;
+    }
+    .discord-button {
+      margin-top: 1.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    .features ul {
+      list-style: disc;
+      margin-left: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/logos/project.png" alt="DVMProject Logo">
+    <h1>DVMProject</h1>
+    <p>Digital Voice Modem Project</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="https://github.com/DVMProject" target="_blank">GitHub</a>
+      <a href="#community">Community</a>
+    </nav>
+  </header>
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+  <div class="hero">
+    <h2>An Open-Source & Affordable Solution For Digital Radio Communications</h2>
+    <p>Explore our collection of repositories designed to power modern digital voice communications.</p>
+    <a href="https://github.com/DVMProject" target="_blank">
+      <button class="cta-button"><i class="fab fa-github"></i> Explore Our GitHub</button>
+    </a>
+  </div>
 
-				<!-- Wrapper -->
-					<div id="wrapper" style="margin-left: auto; margin-right: auto;">
+  <section id="about">
+    <h3>About DVMProject</h3>
+    <p>DVMProject is an open-source software and hardware suite that focuses on the development of digital radio technology. Our efforts build on extending functionality and improving accessibility for hobbyists and professionals alike.</p>
+  </section>
 
-						<!-- Panel (Banner) -->
-							<section class="panel banner right">
-								<div class="content color0 span-3-75">
-									<h1 class="major">DVMProject</h1>
-                                    <p>The DVMProject is a collection of repositories that make up a Digital Voice Modem implementation. See our GitHub repository with the link below. Originally a fork of the MMDVM (<a href="https://github.com/g4klx/MMDVM">https://github.com/g4klx/MMDVM</a>) project.<br />
-                                    <br />
-                                    Please feel free to reach out to us for help, comments or otherwise, on our Discord: <a href="https://discord.gg/3pBe8xgrEz">https://discord.gg/3pBe8xgrEz</a><br />
-                                    <!--
-                                    <ul>
-                                        <li>dvmhost (https://github.com/DVMProject/dvmhost)</li>
-                                        <li>dvmfirmware (https://github.com/DVMProject/dvmfirmware) and dvmfirmware-hs (https://github.com/DVMProject/dvmfirmware-hs)</li>
-                                        <li>dvmfne (https://github.com/DVMProject/dvmfne)</li>
-                                    </ul>
-                                    -->
-									<ul class="actions">
-                                        <li><a class="button primary color1 circle icon solid" style="text-indent: 0;" href="https://github.com/dvmproject"><img src="images/github.png" style="max-width: 100%; max-height: 100%;" alt="GitHub Project Pages" /></a></li>
-									</ul>
-								</div>
-								<div class="image filtered span-1-75" data-position="25% 0%">
-									<img src="images/project.png" alt="DVMProject" />
-								</div>
-							</section>
+  <section id="features" class="features">
+    <h3>Key Features</h3>
+    <ul>
+      <li>Open-Source: Freely accessible and modifiable codebase</li>
+      <li>Affordable: Low-cost hardware allowing more accessibility</li>
+      <li>Community-Driven: Contributions from global developers</li>
+      <li>Versatile Implementation: Compatible with multiple platforms and devices</li>
+    </ul>
+  </section>
 
-						<!-- Copyright -->
-							<div class="copyright">Copyright (c) 2017-2023 DVMProject (https://github.com/dvmproject) Authors | Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
+  <section id="community">
+    <h3>Join Our Community</h3>
+    <p>Connect with others working on DVMProject, get support, and contribute to development on our active Discord server.</p>
+    <div class="discord-button">
+      <a href="https://discord.dvmproject.io/" target="_blank">
+        <button class="cta-button"><i class="fab fa-discord"></i> Join Us on Discord</button>
+      </a>
+    </div>
+  </section>
 
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+  <footer>
+    <p>&copy; 2017-2025 DVMProject Authors. All rights reserved.</p>
+  </footer>
+</body>
 </html>

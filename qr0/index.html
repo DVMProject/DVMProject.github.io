@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Quick access to DVMProject" />
+  <meta name="author" content="DVMProject Authors">
+  <meta property="og:title" content="DVMProject QR Links" />
+  <meta property="og:description" content="Quick QR access to DVMProject resources." />
+  <meta property="og:image" content="/logos/project.png" />
+  <meta property="og:url" content="https://dvmproject.io/qr0" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>DVMProject QR Links</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      height: 100%;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: url('/assets/NP.JPG') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      line-height: 1.6;
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(8px);
+      z-index: 0;
+    }
+    body::after {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 50%, rgba(0,0,0,0.5) 100%);
+      z-index: 0;
+      pointer-events: none;
+    }
+    .container {
+      position: relative;
+      z-index: 1;
+      padding: 2rem;
+      max-width: 500px;
+    }
+    .container img {
+      width: 80px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #e53935;
+    }
+    .button-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #e53935;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      margin: 0.5rem 0;
+      text-decoration: none;
+      transition: background 0.3s;
+      gap: 0.5rem;
+    }
+    .button-link:hover {
+      background: #ff6f60;
+    }
+    footer {
+      position: relative;
+      z-index: 1;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="/logos/project.png" alt="DVMProject Logo">
+    <h1>DVMProject QR Links</h1>
+    <a class="button-link" href="https://github.com/DVMProject" target="_blank">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+    <a class="button-link" href="https://discord.dvmproject.io/" target="_blank">
+      <i class="fab fa-discord"></i> Discord
+    </a>
+  </div>
+  <footer>
+    <p>&copy; 2017-2025 DVMProject Authors. All rights reserved.</p>
+  </footer>
+</body>
+</html>

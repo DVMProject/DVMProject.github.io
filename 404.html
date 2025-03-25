@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="404 - Page Not Found" />
+  <meta name="author" content="DVMProject Authors">
+  <meta property="og:title" content="404 - DVMProject" />
+  <meta property="og:description" content="Oops! The page you're looking for doesn't exist." />
+  <meta property="og:image" content="/logos/project.png" />
+  <meta property="og:url" content="https://dvmproject.io/404" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>404 - DVMProject</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      height: 100%;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: url('/assets/NP.JPG') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      line-height: 1.6;
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(8px);
+      z-index: 0;
+    }
+    body::after {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 50%, rgba(0,0,0,0.5) 100%);
+      z-index: 0;
+      pointer-events: none;
+    }
+    .container {
+      flex: 1;
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 6rem 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .container img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    .container h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #e53935;
+    }
+    .container p {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-bottom: 2rem;
+    }
+    .cta-button {
+      background: #e53935;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .cta-button:hover {
+      background: #ff6f60;
+    }
+    footer {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="/logos/project.png" alt="DVMProject Logo">
+    <h1>404 - Page Not Found</h1>
+    <p>Looks like you've reached a dead frequency. Let's get you tuned back in.</p>
+    <a href="/">
+      <button class="cta-button"><i class="fas fa-house"></i> Return Home</button>
+    </a>
+  </div>
+
+  <footer>
+    <p>&copy; 2017-2025 DVMProject Authors. All rights reserved.</p>
+  </footer>
+</body>
+</html>
